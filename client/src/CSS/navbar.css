@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #fff;
+    margin-bottom: 100px;
+    box-shadow: 0px 3px 28px 4px #eaebec;
+}
+
+
+nav img {
+    float: left;
+    max-width: 75px;
+    height: 75px;  
+    margin-left: 2em; 
+}
+
+nav a:hover, nav i:hover {
+    color: #706868;
+}
+
+nav input {
+    text-align: center;
+    width: 55%;
+    align-self: center;
+}
+
+.rent {
+    margin-left: 3em;
+    text-decoration: none;
+    color: #c4afaf;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    right: 2em;
+}
+
+
+.search-container {
+    width: 47%;
+}
+
+.register-links {
+    padding: 1em;
+    color: #c4afaf;
+    text-decoration: none;
+}

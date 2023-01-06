@@ -1,0 +1,67 @@
+.filter-container {
+    margin: 1em 0;
+    border-radius: 20px;
+    background-color: rgb(251 251 251);
+    box-shadow: 1px 7px 14px -6px #c1c1c1;
+    padding-bottom: 4em;
+}
+
+
+
+.checkbox-box {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+
+.price-area {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+.price {
+    background-color: rgb(212 211 173);
+    color: #fff;
+    border-radius: 15px;
+    padding: 6px;
+    font-size: 18px;
+}
+
+/* input[type=range].range_input {
+
+} */
+
+
+input[type=range].range_input {
+    -webkit-appearance: none;     /*nécessaire pour Chrome */
+    padding: 0;                   /* nécessaire pour IE */
+    font: inherit;                /* même rendu suivant font document */
+    outline: none;
+    border-radius: 50%;
+    background-color: #fbfbfb;
+    color: rgb(33 169 157);
+    cursor: pointer;
+  }
+
+
+
+
+input[type=range].range_input::-webkit-slider-runnable-track {
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    height: 10px;
+    background-color: rgb(212 211 173);
+  }
+
+
+  input[type=range].range_input::-webkit-slider-thumb {
+    -webkit-appearance: none;       /* également nécessaire sur le curseur */
+  width: 1em;
+  height: inherit;                /* s'adapte à la hauteur de l'input */
+  border: none;
+  border-radius: 100%;               /* pris en compte sur Webkit et Edge */
+  background: currentColor;       /* pris en compte sur Webkit only */
+}

@@ -1,0 +1,75 @@
+.register-form-container {
+    width: 40%;
+    /* height: 300px; */
+    margin: 0 auto;
+    background-color: #c4afaf08;
+    border-radius: 8px;
+    box-shadow: 0px 9px 17px -5px rgb(167 167 167 / 71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+input {
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.login-title {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 2em auto;
+
+}
+
+#email, #password, #confirmedPassword {
+    width: 60%;
+}
+
+
+
+
+
+.register-form-container button {
+    border: 1px solid rgb(104, 100, 88);
+    border-radius: 20px;
+    width: 8em;
+    padding: 0.5em;
+}
+
+.register-form-container button:hover {
+    background-color: black;
+    color: white;
+}
+
+.user-infos {
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+.user-name {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.user-lastname {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.email-zone {
+    width: 60%;
+}
+
+
+
+.passwords-zone {
+    width: 60%;
+}
+
